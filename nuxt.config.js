@@ -1,5 +1,4 @@
 export default {
-  rootUrl: process.env.NODE_ENV === 'production' ? 'https://nuxt-bnb-eta.vercel.app' : 'http//localhost:3000',
   components: true,
   head: {
     titleTemplate: "Mastering Nuxt %s",
@@ -47,6 +46,7 @@ export default {
     }
   },
   publicRuntimeConfig: {
+    rootUrl: process.env.NODE_ENV === 'production' ? 'https://nuxt-bnb-eta.vercel.app' : 'http//localhost:3000',
     auth: {
       cookieName: 'idToken',
       clientId: '843687423888-m5eeugrnt7di3fhk0u6rgpnb1656klbb.apps.googleusercontent.com',
