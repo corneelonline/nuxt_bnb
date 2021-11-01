@@ -22,5 +22,8 @@
     "@nuxt/image": "^0.6.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "node-sass": "^6.0.1"
-  }
+  },
+  "resolutions": {
+    "sharp": "0.28.0"
+  },
 }
