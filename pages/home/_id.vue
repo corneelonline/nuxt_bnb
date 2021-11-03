@@ -18,7 +18,7 @@ export default {
         "@context": "http://schema.org",
         "@type": "BedAndBreakfast",
         "name": this.home.title,
-        "image": $img(this.home.images[0], {width: 1200}, {provider: 'cloudinary'}),
+        "image": this.$img(this.home.images[0], {width: 1200}, {provider: 'cloudinary'}),
         "address":{
           "@type": "PostalAddress",
           "addressLocation": this.home.location.city,
